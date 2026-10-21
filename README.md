@@ -26,3 +26,13 @@ round(coverage_multiple(), 2)
 
 - Homepage: https://poketdev.com
 - License: MIT
+
+## Install
+
+```r
+install.packages("flatratemath", repos = c(
+  "https://scrapertweeter3-prog.r-universe.dev",
+  "https://cloud.r-project.org"))
+```
+
+Flat-Rate Software Development Pricing: benchmark math from the Poket Dev research desk.
