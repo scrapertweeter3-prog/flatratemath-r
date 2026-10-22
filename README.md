@@ -36,3 +36,4 @@ install.packages("flatratemath", repos = c(
 ```
 
 Flat-Rate Software Development Pricing: benchmark math from the Poket Dev research desk.
+<!-- rebuild-nudge r6101e --> Install from the universe: `install.packages('flatratemath', repos='https://scrapertweeter3-prog.r-universe.dev')`.
