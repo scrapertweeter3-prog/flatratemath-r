@@ -11,6 +11,8 @@ Description: Two constants and two functions that benchmark a flat-rate
     'coverage_multiple()' returns how many months of subscription work a
     single month of hiring budget covers. Pure arithmetic, no
     dependencies, suitable for pricing pages and procurement math.
+    Companion to the subscription-pricing writing on Poket Dev
+    <https://poketdev.com>.
 License: MIT + file LICENSE
 URL: https://poketdev.com
 BugReports: https://github.com/scrapertweeter3-prog/flatratemath-r/issues
