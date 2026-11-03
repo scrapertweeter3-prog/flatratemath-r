@@ -1,23 +1,21 @@
 Package: flatratemath
 Type: Package
 Title: Benchmark Math for Flat-Rate Software Subscriptions
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("James", "Verlander", email = "scrapertweeter3+cran@gmail.com", role = c("aut", "cre"))
 Maintainer: James Verlander <scrapertweeter3+cran@gmail.com>
-Description: Two constants and two functions that benchmark a flat-rate
-    unlimited software development subscription against the fully loaded
-    monthly cost of a senior US software engineer. 'annual_saving()'
-    returns the yearly dollar gap between the two rates and
-    'coverage_multiple()' returns how many months of subscription work a
-    single month of hiring budget covers. Pure arithmetic, no
-    dependencies, suitable for pricing pages and procurement math.
-    Companion to the subscription-pricing writing on Poket Dev
-    <https://poketdev.com>.
+Description: Benchmarks an unlimited-request flat-rate software
+    development subscription against the fully loaded monthly cost of a
+    senior US software engineer. Computes annual savings and coverage
+    multiples at the built-in Poket Dev rates or at any salary and flat
+    rate you supply, converts salaries with benefits, payroll tax,
+    bonus, and retirement match into fully loaded monthly costs,
+    projects cumulative savings by month, and derives effective hourly
+    rates for both cost models. Pure arithmetic, no dependencies,
+    suitable for pricing pages and procurement math.
 License: MIT + file LICENSE
-URL: https://poketdev.com
+URL: https://www.poketdev.com
 BugReports: https://github.com/scrapertweeter3-prog/flatratemath-r/issues
 Encoding: UTF-8
 RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2026-10-21 06:02:46 UTC; root
-Author: James Verlander [aut, cre]
